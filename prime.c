@@ -2,16 +2,17 @@
      
     int main()
     {
-int n, i = 3, count, c;
+	int n, i = 3, count, c;
      
        printf(Enter the number of prime numbers requiredn);
        scanf(%d,&n);
-     
+     //condition
        if ( n = 1 )
        {
           printf(First %d prime numbers are n,n);
           printf(2n);
        }
+//loop
        
 for ( count = 2 ; count = n ;  )
        {
